@@ -9,6 +9,7 @@ import {
 import { signOut } from "firebase/auth/web-extension";
 import { getFirestore, setDoc, doc, collection, where, getDocs, query } from "firebase/firestore";
 import { toast } from "react-toastify";
+import.meta.env;
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
