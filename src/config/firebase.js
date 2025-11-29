@@ -6,7 +6,6 @@ import {
   signInWithEmailAndPassword,
   signOut
 } from "firebase/auth";
-import { signOut } from "firebase/auth/web-extension";
 import { getFirestore, setDoc, doc, collection, where, getDocs, query } from "firebase/firestore";
 import { toast } from "react-toastify";
 import.meta.env;
